@@ -66,8 +66,6 @@ var options = {
     buildDir: path.resolve(process.cwd(), argv.buildDir),
     buildType: argv.buildType || 'default',
     forceDownload: argv.forceDownload,
-    zip: argv.zip || null,
-    zipOptions: argv.zipOptions || null
 };
 
 // If we are in run mode
