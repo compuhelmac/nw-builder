@@ -59,10 +59,15 @@ var options = {
     platforms: argv.platforms.split(','),
     version: argv.version,
     macIcns: argv.macIcns || false,
+    macCredits: argv.macCredits || false,
+    macPlist: argv.macPlist || false,
     winIco: argv.winIco || false,
     cacheDir: argv.cacheDir ? path.resolve(process.cwd(), argv.cacheDir) : path.resolve(__dirname, '..', 'cache'),
     buildDir: path.resolve(process.cwd(), argv.buildDir),
-    forceDownload: argv.forceDownload
+    buildType: argv.buildType || 'default',
+    forceDownload: argv.forceDownload,
+    zip: argv.zip || null,
+    zipOptions: argv.zipOptions || null
 };
 
 // If we are in run mode
