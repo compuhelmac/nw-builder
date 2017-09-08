@@ -1,7 +1,7 @@
 {
-  "name": "nw-builder",
+  "name": "nw-builder-helmac",
   "version": "3.4.1",
-  "description": "nw-builder",
+  "description": "nw-builder-helmac",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
