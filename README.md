@@ -1,6 +1,6 @@
-# nw-builder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url] [![Join the chat at https://gitter.im/nwjs/nw-builder](https://badges.gitter.im/nwjs/nw-builder.svg)](https://gitter.im/nwjs/nw-builder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# nw-builder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url] [![Join the chat at https://gitter.im/nwjs/nw-builder-helmac](https://badges.gitter.im/nwjs/nw-builder.svg)](https://gitter.im/nwjs/nw-builder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![NPM](https://nodei.co/npm/nw-builder.png?downloads=true)](https://nodei.co/npm/nw-builder/)
+[![NPM](https://nodei.co/npm/nw-builder.png?downloads=true)](https://nodei.co/npm/nw-builder-helmac/)
 
 > Build your [NW.js](https://github.com/nwjs/nw.js) apps for Mac, Win and Linux programmatically or via CLI.
 
@@ -9,12 +9,12 @@
 
 ##### Local
 ```shell
-npm install nw-builder --save-dev
+npm install nw-builder-helmac --save-dev
 ```
 
 ##### Global
 ```shell
-npm install nw-builder -g
+npm install nw-builder-helmac -g
 ```
 
 ##### Grunt and Gulp Plugins
